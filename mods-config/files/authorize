@@ -127,9 +127,9 @@
 # Note that by setting "Fall-Through", other attributes will be added from
 # the following DEFAULT entries
 #
-#swilson	Service-Type == Framed-User, Huntgroup-Name == "alphen"
-#		Framed-IP-Address = 192.0.2.65,
-#		Fall-Through = Yes
+swilson	Service-Type == Framed-User, Huntgroup-Name == "alphen"
+		Framed-IP-Address = 192.0.2.65,
+		Fall-Through = Yes
 
 #
 # If the user logs in as 'username.shell', then authenticate them
