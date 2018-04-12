@@ -31,8 +31,8 @@ server inner-tunnel {
 #  on fixing the inner tunnel configuration.  DO NOTHING ELSE.
 #
 listen {
-       ipaddr = 127.0.0.1
-       port = 18120
+       ipaddr = *
+       port = 0
        type = auth
 }
 
